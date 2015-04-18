@@ -1,0 +1,18 @@
+<html>
+<script language=JavaScript>
+	function test() {
+		return;
+
+		alert('test');
+
+		window.setTimeout(test, 5000);
+	}
+</script>
+<body onLoad="test()">
+	<ul>
+		<li><a href="/index.html?r=1023&g=0&b=0">red</a>
+		<li><a href="/index.html?r=0&g=1023&b=0">green</a>
+		<li><a href="/index.html?r=0&g=0&b=1023">blue</a>
+	</ul>
+</body>
+</html>
